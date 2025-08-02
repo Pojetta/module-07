@@ -53,7 +53,8 @@ python -m spacy download en_core_web_sm
 import json  
 import pathlib  
 import pickle  
-from collections import Counter  
+from collections import Counter
+import numpy as np  
   
 import requests  
 from bs4 import BeautifulSoup  
